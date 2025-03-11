@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Circle with Black Square Border</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .border-box {
+            width: 500px;  /* Square size around the circle */
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid black;  /* Black square border */
+        }
+
+        .circle {
+            width: 130px;  /* Circle size */
+            height: 130px;
+            background-color: red;
+            border-radius: 50%;  /* Make the shape a circle */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="border-box">
+        <div class="circle"></div>
+    </div>
+
+</body>
+</html>
